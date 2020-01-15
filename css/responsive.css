@@ -1,0 +1,949 @@
+
+@media (min-width: 320px) and (max-width: 991px) { 
+    #header ul li {
+        background-color: #858585;
+        text-align: center;
+        padding: 0px;
+    }
+    #header ul li a.active {
+        display: inline-block;
+    }
+    .navbar-nav .dropdown-menu{
+        text-align: center;
+        background-color: #858585;
+    }
+    .navbar-nav .dropdown-menu a{
+        color: #fff;
+        background: none;
+    }
+    #header .dropdown-menu{
+        border-radius: 0px;
+        border-top: none;
+    }
+
+    #main-menu-list .menu-list h4 span.dot {
+        display: none;
+    }
+    #menu .title h4 .dote {
+        display: none;
+    }
+
+}
+
+/* Extra small devices (portrait phones, less than 415px) */
+@media (min-width: 320px) and (max-width: 575.98px) { 
+
+/* ******************* Home Page ********************** */
+
+    #slider img{
+        height: 500px;
+    }
+    #slider h2 {
+        font-size: 27PX;
+        padding: 40px 0px;
+    }
+    #slider .carousel-control-prev,#slider .carousel-control-next {
+        display: none;
+    }
+    #feature .feature-content h2 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    #feature .feature-content h6 {
+        font-size: 13px;
+        margin-bottom: 25px;
+    }
+    #feature .feature-content .box1 {
+        margin-bottom: 18px;
+    }
+    #feature .feature-content p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    #feature .feature-content h5 {
+        font-size: 32px;
+    }
+    #menu-head {
+        margin-top: 20px;
+    }
+    #menu-head .text h1 {
+        font-size: 37px;
+    }
+
+/* ******************* Menu Page ********************** */
+
+#menu-head .text p {
+    font-size: 13px;
+    font-weight: 600;
+}
+#popular-dishes-head .text h1 {
+    font-size: 42px;
+}
+#popular-dishes-head .text p {
+    font-size: 14px;
+    font-weight: 600;
+}
+#main-menu-list .menu-list h4 {
+    font-size: 13px;
+}
+#ingredients .text h1 {
+    font-size: 55px;
+}
+#ingredients .text p {
+    font-size: 13px;
+    font-weight: 600;
+}
+#experience .feature-content h2 {
+    font-size: 26px;
+}
+#experience .feature-content p {
+    font-size: 14px;
+    margin-top: 17px;
+    line-height: 24px;
+}
+#experience .feature-content .box1 {
+    width: 60px;
+    margin-top: 18px;
+}
+#chef-head .chef-head-area h2 {
+    font-size: 55px;
+}
+#chef-head .chef-head-area p {
+    font-size: 15px;
+}
+
+/* ******************* Blog Page ********************** */
+
+#blog-post .blog-post-1 .post-content h2 {
+    font-size: 17px;
+    margin-top: 20px;
+}
+#blog-post .blog-post-1 .post-content p.lead {
+    font-size: 11px;
+    margin-top: 15px;
+}
+#blog-post .blog-post-1 .post-content .box {
+    width: 60px;
+    margin-top: 15px;
+}
+#blog-post .blog-post-1 .post-content p {
+    font-size: 13px;
+    line-height: 26px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+#blog-post .right {
+    margin-top: 20px;
+}
+
+/* ******************* Blog Single Post Page ********************** */
+
+
+#blog-post .blog-post-1 .post-content .tag li a {
+    padding: 3px 5px;
+}
+
+/* ******************* Event Page ********************** */
+
+    #header-image h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    #event .right {
+        margin-left: 0px;
+    }
+    .event-item-1 p {
+        padding: 0px 10px;
+        font-size: 13px;
+    }
+    #event .event-item-1 .post-content .mid h4 {
+        font-size: 13px;
+        line-height: 24px;
+        margin-left: 10px;
+    }
+    #event .event-item-1 .post-content p {
+        font-size: 13px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+
+/* ******************* Reservation Page ********************** */
+
+    #reservation .content p{
+        font-size: 13px;
+    }
+    #reservation .content h4 {
+        font-size: 15px;
+    }
+    .right-content {
+        margin-left: 0px;
+    }
+    button.btn.btn-dark {
+        margin-bottom: 20px;
+    }
+
+/* ******************* Contact US Page ********************** */
+
+    section#contact-us {
+        margin-top: -20px;
+    }
+    #contact-us .content h2 {
+        font-size: 24px;
+    }
+    #contact-us .content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+/* ******************* Single Blog Post Page ********************** */
+
+    #blog-post .blog-post-1 .post-content .mid h4 {
+        font-size: 13px;
+        line-height: 21px;
+        margin-top: 15px;
+    }
+    #blog-post .blog-post-1 .post-content p {
+        line-height: 22px;
+
+    }
+    #blog-post .blog-post-1 .post-content .tag ul{
+        margin-left: 30px !important;
+    }
+    #blog-post .blog-post-1 .post-content .tag ul li{
+        margin-right: 0px;
+    }
+    #blog-post .blog-post-1 .like h4{
+        font-size: 18px;
+    }
+    #blog-post .blog-post-1 .like h5 {
+        font-size: 17px;
+    }
+    textarea.form-control {
+        height: 100px;
+    }
+
+/* ******************* Shop Page ********************** */
+
+/* ******************* Strff Page ********************** */
+
+    #header-image p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+/* ******************* Gallery Page ********************** */
+
+/* ******************* About Us Page ********************** */
+    .order-change{
+        order: 2;
+    }
+    #feature .content-area {
+        margin-top: 0;
+    }
+    #feature .content-area h5 {
+        margin-top: 0px;
+    }
+    #feature .content-area h2 {
+        margin-top: 0px;
+    }
+    #feature .content-area h6 {
+        margin-top: 0px;
+    }
+    #dining .content-area {
+        margin-top: 0;
+    }
+    #one .content-area h5 {
+        margin-top: 0px;
+    }
+    #one .content-area h2 {
+        margin-top: 0px;
+    }
+    #one .content-area h6 {
+        margin-top: 0px;
+    }
+    #testimonail .carousel {
+        width: 100%;
+        height: auto;
+    }
+    #testimonail img.phot {
+        display: none;
+    }
+    #testimonail .right{
+        position: inherit;
+    }
+    #testimonail .carousel-item p {
+        padding: 12px;
+        font-size: 20px;
+    }
+    #testimonail a.carousel-control-next {
+        right: 0px; 
+        background-color: transparent;
+    }
+    #testimonail a.carousel-control-prev {
+        left: 0px;
+        background-color: transparent;
+    }
+    #testimonail .carousel-item h2 {
+        font-size: 32px;
+    }
+    #testimonail .carousel-item i {
+        font-size: 22px;
+    }
+    #testimonail .carousel-item p {
+        padding: 12px 0px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    #chef .chef-head h2 {
+        font-size: 26px;
+    }
+    #chef .chef-head h4 {
+        margin-top: 15px;
+    }
+    #service .service-head h4 {
+        font-size: 15px;
+    }
+    #service .service-head .box {
+        width: 140px;
+    }
+    #one img.photo {
+        display: none;
+    }
+    #one .left{
+        position: inherit;
+    }
+   #one .container-fluid {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-top: -50px;
+    }
+    #one .carousel {
+        height: auto;
+        width: 100%;
+    }
+    #one a.carousel-control-next {
+        right: 0px; 
+        background-color: transparent;
+    }
+    #one a.carousel-control-prev {
+        left: 0px;
+        background-color: transparent;
+    }
+    #one .carousel-item h2 {
+        font-size: 31px;
+    }
+    #one .carousel-item p {
+        font-size: 15px;
+    }
+    #one .carousel-item {
+        padding: 10% 13%;
+    }
+    #one .carousel-item .i-con img {
+        margin-right: 12px;
+    }
+
+
+/**** Footer area for all page ****/
+
+    #footer-area .footer-left .box h4 {
+        font-size: 25px;
+    }
+    #footer-area .footer-center   .social-icon ul li a i {
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 5px;
+    }
+    #footer-area .footer-center p {
+        font-size: 14px;
+    }
+    #footer-end p {
+        font-size: 14px;
+    }
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+/* ******************* Home Page ********************** */
+
+    #slider h2 {
+        font-size: 34PX;
+        padding: 40px 0px;
+        line-height: 40px;
+    }
+    #slider  .carousel-control-prev,#slider .carousel-control-next {
+        display: none;
+    }
+    #menu-head .text h1 {
+        font-size: 42px;
+    }
+    #menu-head .text p {
+        font-size: 16px;
+    }
+    #popular-dishes-head .text h1 {
+        font-size: 51px;
+    }
+    #popular-dishes-head .text p {
+        font-size: 18px;
+    }
+    #ingredients .text p {
+        font-size: 18px;
+    }
+    #experience .feature-item img {
+        margin-top: 10px;
+    }
+
+/* ******************* Menu Page ********************** */
+
+/* ******************* Blog Page ********************** */
+
+/* ******************* Event Page ********************** */
+
+    #header-image h2 {
+        font-size: 58px;
+    }
+    #event .right {
+        margin-left: 0px;
+    }
+    #event .right li.list-inline-item:first-child {
+        margin: 0px 50px;
+    }
+
+/* ******************* Reservation Page ********************** */
+
+    .right-content {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    button.btn.btn-dark {
+        margin-bottom: 20px;
+    }
+
+/* ******************* Contact US Page ********************** */
+
+    #contact-us .content h2 {
+        font-size: 27px;
+    }
+    #contact-us .content p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+/* ******************* Single Blog Post Page ********************** */
+
+    #blog-post .right {
+        margin-top: 30px;
+    }
+
+/* ******************* Shop Page ********************** */
+
+/* ******************* Strff Page ********************** */
+
+/* ******************* Gallery Page ********************** */
+
+/* ******************* About Us Page ********************** */
+    .order-change{
+        order: 2;
+    }
+    #feature .content-area {
+        margin-top: 0;
+    }
+    #feature .content-area h5 {
+        margin-top: 0px;
+    }
+    #feature .content-area h2 {
+        margin-top: 0px;
+    }
+    #feature .content-area h6 {
+        margin-top: 0px;
+    }
+    #dining .content-area {
+        margin-top: 0;
+    }
+    #one .content-area h5 {
+        margin-top: 0px;
+    }
+    #one .content-area h2 {
+        margin-top: 0px;
+    }
+    #one .content-area h6 {
+        margin-top: 0px;
+    }
+    #chef .chef-head h2 {
+        font-size: 26px;
+    }
+    #chef .chef-head h4 {
+        margin-top: 15px;
+    }
+    #service .service-head h4 {
+        font-size: 15px;
+    }
+    #service .service-head .box {
+        width: 140px;
+    }
+    #testimonail img.phot {
+        display: none;
+    }
+    #testimonail .right{
+        position: inherit;
+    }
+    #testimonail .carousel {
+        height: 500px;
+        width: 100%;
+    }
+    #testimonail a.carousel-control-next {
+        right: 0px; 
+        background-color: #a36b26;
+    }
+    #testimonail a.carousel-control-prev {
+        left: 0px;
+    }
+    #service .service-head h2 {
+        font-size: 26px;
+    }
+    #service .service-bottom .row .col-md-4{
+        margin-top: 20px !important;
+    }
+
+    #one .container-fluid {
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-top: -50px;
+    }
+    #one img.photo {
+        display: none;
+    }
+    #one .left{
+        position: inherit;
+    }
+    #one .carousel {
+        height: auto;
+        width: 100%;
+    }
+    #one a.carousel-control-next {
+        right: 0px; 
+        background-color: #a36b26;
+    }
+    #one a.carousel-control-prev {
+        left: 0px;
+        background-color: #a36b26;
+
+    }
+
+
+/**** Footer area for all page ****/
+
+    #footer-end p {
+        font-size: 14px;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+/* ******************* Home Page ********************** */
+
+    #slider h2 {
+        font-size: 37PX;
+        padding: 40px 10px;
+        line-height: 60px;
+    }
+    #feature .feature-content h2 {
+        font-size: 25px;
+    }
+    #menu-head .text h1 {
+        font-size: 57px;
+    }
+    #menu-head .text p {
+        font-size: 16px;
+    }
+    #popular-dishes-head .text h1 {
+        font-size: 69px;
+    }
+    #main-menu-list .menu-list h4 {
+        font-size: 14px;
+    }
+    #ingredients .text p {
+        font-size: 19px;
+    }
+    #experience .feature-content h2 {
+        font-size: 31px;
+    }
+    #chef-head .card p.lead {
+        font-size: 13px;
+    }
+    #chef-head .card p {
+        font-size: 15px;
+    }
+
+/* ******************* Menu Page ********************** */
+
+    #menu .title p {
+        font-size: 11px;
+    }
+    #menu .title h4 {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    #menu .title p .box {
+        width: 75px;
+    }
+
+/* ******************* Blog Page ********************** */
+
+    #blog-post .short-codes h4 {
+        font-size: 17px;
+        margin: 20px 0px;
+    }
+    .popular-post .item-1 h5 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .popular-post .item-1 p {
+        font-size: 11px;
+    }
+    #blog-post .short-codes .tages li {
+        margin: 3px;
+        font-size: 12px;
+    }
+
+    /* ******************* Event Page ********************** */
+
+    #header-image h2 {
+        font-size: 56px;
+    }
+    #event .right {
+        margin-left: 10px;
+    }
+
+/* ******************* Reservation Page ********************** */
+
+    .right-content {
+        margin-left: 14px;
+    }
+    .right-content .content-area ul li{
+        margin-right: 0px;
+    }
+
+/* ******************* Contact US Page ********************** */
+
+    #contact-us .content p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+/* ******************* Single Blog Post Page ********************** */
+
+/* ******************* Shop Page ********************** */
+
+/* ******************* Strff Page ********************** */
+
+/* ******************* Gallery Page ********************** */
+
+/* ******************* About Us Page ********************** */
+
+    #feature .content-area {
+        margin-top: 30%;
+    }
+    #feature .content-area h5 {
+        font-size: 16px;
+    }
+    #feature .content-area h2 {
+        margin-top: 0px;
+    }
+    #feature .content-area h6 {
+        margin-top: 14px;
+        font-size: 14px;
+    }
+    #feature .content-area p {
+        margin-top: 0px;
+        font-size: 13px;
+        padding: 0;
+    }
+    #dining {
+        margin-top: 30px;
+    }
+    #dining  .row{
+        margin: 0 !important;
+    }
+    #dining .content-area {
+        margin-top: 38%;
+    }
+    #dining .content-area h5 {
+        font-size: 16px;
+    }
+    #dining .content-area h2 {
+        margin-top: 0px;
+    }
+    #dining .content-area h6 {
+        margin-top: 14px;
+        font-size: 14px;
+    }
+    #dining .content-area p {
+        margin-top: 0px;
+        font-size: 13px;
+        padding: 0;
+    }
+    #testimonail {
+        margin-top: 40px;
+    }
+    #testimonail .carousel {
+        height: 500px;
+        width: 400px;
+    }
+    #testimonail .carousel-item h2 {
+        font-size: 36px;
+    }
+    #testimonail .carousel-item i {
+        font-size: 24px;
+    }
+    #testimonail .carousel-item p {
+        padding: 10px;
+        font-size: 15px;
+    }
+    #testimonail a.carousel-control-next {
+        right: 360px;
+    }
+    #testimonail a.carousel-control-prev {
+     left: -39px;
+    }
+    #chef .chef-head h4 {
+        margin-top: 20px;
+    }
+    /* .card-title {
+        font-size: 20px;
+    } */
+    .item .content {
+        height: 50px;
+        padding: 5px 10px;
+    }
+    .item .content h3 {
+        font-size: 19px;
+    }
+    .item .content p {
+        font-size: 14px;
+        margin: 0px;
+        line-height: 20px;
+    }
+
+    #service .service-head h2 {
+        font-size: 27px;
+    }
+    #service .service-head h4.card-title {
+        font-size: 20px;
+    }
+    #service .service-bottom .card .box {
+        height: 80px;
+        width: 80px;
+    }
+    #service .service-bottom .card .box img {
+        width: 50px;
+        height: 50px;
+    }
+    #one .carousel {
+        height: 500px;
+        width: 400px;
+    }
+    #one .carousel-item h2 {
+        font-size: 40px;
+    }
+    #one .carousel-item p {
+        padding: 10px;
+        font-size: 19px;
+    }
+    #one .carousel-item .i-con img {
+        margin-right: 13px;
+        margin-top: 10px;
+    }
+    #one a.carousel-control-next {
+        right: -39px;
+    }
+    #one a.carousel-control-prev {
+        left: 360px;
+    }
+
+    /**** Footer area for all page ****/
+
+    #footer-area .footer-left .box h4 {
+        font-size: 19px;
+    }
+    #footer-area .footer-left .box {
+        bottom: 25%;
+        padding: 5px;
+    }
+    #footer-area .footer-center p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    #footer-area .footer-center h3 {
+        font-size: 24px;
+        margin-top: 55px;
+    margin-bottom: 5px;
+    }
+    #footer-area .footer-center   .social-icon ul li a i {
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 3px;
+    }
+    .social-icon.text-center {
+        margin-top: 0px;
+    }
+    #footer-area .footer-right {
+        margin-top: 55px;
+    }
+    #footer-end p{
+        font-size: 14px;
+    }
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+/* ******************* Home Page ********************** */
+
+    #header ul li{
+        padding: 10px 3px;
+    }
+    #header ul li a{
+        font-size: 18px;
+    }
+    #slider h2 {
+        font-size: 46PX;
+        line-height: 60px;
+    }
+    #menu-head .text h1 {
+        font-size: 74px;
+    }
+    #main-menu-list .menu-list h4 span.dot {
+        display: none;
+    }
+
+/* ******************* Menu Page ********************** */
+
+    #menu .title h4 .dote {
+        letter-spacing: 1px;
+    }
+
+/* ******************* Blog Page ********************** */
+
+
+/* ******************* Event Page ********************** */
+
+    #header-image h2 {
+        font-size: 73px;
+    }
+
+/* ******************* Reservation Page ********************** */
+
+/* ******************* Contact US Page ********************** */
+
+/* ******************* Single Blog Post Page ********************** */
+
+/* ******************* Shop Page ********************** */
+
+/* ******************* Strff Page ********************** */
+
+/* ******************* Gallery Page ********************** */
+
+/* ******************* About Us Page ********************** */
+
+    #feature .content-area {
+        margin-top: 60%;
+    }
+    #feature .content-area h2 {
+        margin-top: 12px;
+    }
+    #feature .content-area h6 {
+        margin-top: 19px;
+    }
+    div#dining {
+        margin-top: -20px;
+    }
+    #dining .content-area {
+        margin-top: 60%;
+    }
+    #dining .content-area h2 {
+        margin-top: 12px;
+    }
+    #dining .content-area h6 {
+        margin-top: 19px;
+    }
+    #testimonail {
+        margin-top: 20px;
+    }
+    #testimonail .carousel {
+        height: 500px;
+        width: 500px;
+    }
+    #testimonail .carousel-item p {
+        padding: 15px;
+        font-size: 19px;
+    }
+    #testimonail a.carousel-control-next {
+        right: 460px;
+    }
+    #chef .chef-head h4 {
+        margin-top: 20px;
+    }
+    #one .carousel {
+        height: 500px;
+        width: 500px;
+    }
+    #one .carousel-item p {
+        padding: 15px;
+        font-size: 19px;
+    }
+    #one a.carousel-control-next {
+        right: -39px;
+    }
+    #one a.carousel-control-prev {
+        left: 460px;
+    }
+
+
+/**** Footer area for all page ****/
+
+    #footer-area .footer-left .box {
+        bottom: 26%;
+    }
+    #footer-area .footer-left .box h4 {
+        font-size: 24px;
+    }
+    #footer-area .footer-center p {
+        font-size: 14px;
+        margin-bottom: 28px;
+    }
+    .social-icon.text-center {
+        margin-top: 20px;
+    }
+    #footer-area .footer-center .social-icon ul li a i {
+        margin: 5px;
+    }
+
+}
+
+/* Extra Large devices */
+@media (min-width: 1200px) {
+    #feature .content-area p {
+        padding: 0;
+        font-size: 16px;
+    }
+    #dining .content-area p {
+        padding: 0;
+        font-size: 16px;
+    }
+    #testimonail {
+        margin-top: 30px;
+    }
+    div#chef {
+        margin-top: 30px;
+    }
+}

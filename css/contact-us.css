@@ -1,0 +1,345 @@
+
+/* 
+***********************************Start Css Styling**********************************************
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* *******************************Start of css for  header menu************************************** */
+
+#header {
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-top: 25px;
+}
+.fixed {
+    position: fixed !important;
+    top: 0 !important;
+    /* background-color: rgba(235,65,65,.8); */
+    background-color: rgba(18, 18, 18, 0.8);
+    margin-top: 0px !important;
+}
+.fixed nav {
+    padding: 0;
+}
+#header .navbar-brand{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+
+#header ul li a.active{
+    /* background-color: #fff; */
+    color: #eb4141;
+    border-bottom: 2px solid #eb4141;
+}
+
+#header ul li{
+    padding: 7px 10px;
+}
+
+#header ul li a{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    text-decoration: none;
+    -webkit-transition:  all ease .3s;
+    -moz-transition:  all ease .3s;
+    -o-transition:  all ease .3s;
+    transition: all ease .3s;
+}
+
+#header ul li:last-child{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#header ul li:nth-last-child(2){
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#header ul li a:hover{
+    color: #eb4141;
+}
+#header .dropdown-menu{
+    border-radius: 10px;
+    background-color: #858585;
+    border: none;
+}
+.navbar-nav .dropdown-menu a{
+    background: none;
+}
+#header .dropdown-menu a{
+    color: #fff;
+}
+
+/* *******************************End of css for  header menu************************************** */
+
+
+/* *******************************start of css for  header-image************************************** */
+
+#header-image{
+    height: 400px;
+    width: 100%;
+    background: url('../images/home/contact-us-head.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+#header-image .head-tittle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+#header-image h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Yellowtail', cursive;
+    font-size: 85px;
+    color: #fff;   
+}
+
+/* *******************************end of css for  header-image************************************** */
+
+#contact-us .content h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+#contact-us .content .box{
+    height: 2px;
+    width: 70px;
+    margin: 20px 0px;
+    background-color: #000;
+}
+
+#contact-us .content p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+
+form label {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.form-control{
+    background-color: #e3e3e3;
+}
+
+button.btn.btn-dark {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 8px 30px;
+    border: none;
+    transition: all linear .5s;
+    color: #a36b26;
+}
+
+button.btn.btn-dark:hover{
+   color: #fff;
+   background-image: linear-gradient( 109.6deg,  rgba(41,125,182,1) 3.6%, rgba(77,58,151,1) 51%, rgba(103,55,115,1) 92.9% );   
+}
+
+/* right  */
+
+.right .item1,.item2,.item3{
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, .5);
+    -webkit-transition: all linear .3s;
+    -moz-transition:  all linear .3s;
+    -o-transition:  all linear .3s;
+    transition: all linear .3s;
+}
+.right .item1:hover,.item2:hover,.item3:hover{
+    background-image: linear-gradient( 109.6deg,  rgba(41,125,182,1) 3.6%, rgba(77,58,151,1) 51%, rgba(103,55,115,1) 92.9% );
+    color: #fff;
+    transform: translate(5px,-10px);
+}
+.right .item1:hover i{
+    border: 1px solid transparent ;
+    background-color: #fff;
+}
+.right .item2:hover i{
+    border: 1px solid transparent ;
+    background-color: #fff;
+}
+.right .item3:hover i{
+    border: 1px solid transparent ;
+    background-color: #fff;
+}
+.right .i-con{
+    padding-top: 20px;
+}
+
+.right .i-con a i{
+    font-size: 20px;
+    border: 1px solid rgb(211, 59, 59);
+    border-radius: 50% ;
+    height: 40px;
+    width: 40px;
+    line-height: 35px;
+    text-align: center;
+    color: rgb(211, 59, 59);
+}
+.right h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.right p{
+    font-size: 18px;
+    padding: 0px 15px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.right p:last-child{
+    padding-bottom: 20px;
+}
+
+/* end right */
+
+/* *******************************Start of css for map************************************** */
+
+.map{
+    margin-top: 50px;
+}
+
+iframe{
+    width: 100%;
+    border: 0;
+}
+
+/* *******************************end of css for map************************************** */
+
+
+/* *******************************Start of css for footer-area************************************** */
+
+#footer-area{
+    background: #000;
+}
+
+#footer-area .footer-left,.footer-center-end{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#footer-area .footer-left img{
+    width: 100%;
+}
+
+#footer-area .footer-left .box{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    bottom: 22%;
+    padding: 5px;
+    background-color: #000;
+    opacity: .6;
+}
+
+#footer-area .footer-left .box h4{
+    font-size: 24px;
+    color: #fff;
+}
+
+#footer-area .footer-left .box span{
+    color: #a36b26;
+}
+/*  */
+#footer-area .footer-center{
+    color: #fff;
+}
+
+
+#footer-area .footer-center h3{
+  font-size: 30px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#footer-area .footer-center p{
+ font-size: 16px;
+ margin-bottom: 100px;
+}
+
+#footer-area .footer-center .social-icon ul li {
+    display: inline;
+}
+
+#footer-area .footer-center .social-icon ul li a i{
+   color: #fff;
+   background-color: #2f2f2f;
+   height: 35px;
+   width: 35px;
+   font-size: 16px;
+   line-height: 32px;
+}
+#footer-area .footer-center .social-icon ul li a i:hover{
+    color: #a36b26;
+    background-color: #fff;
+  
+}
+
+#footer-area .footer-right{
+    color: #fff;
+    margin-top: 70px;
+}
+
+#footer-area .footer-right p{
+    margin: 5px;
+}
+
+/* *******************************End of css for footer-area************************************** */
+
+
+/* *******************************Start of css for footer-end************************************** */
+
+#footer-end{
+    background-color: #8f8888;
+    height: 50px;
+    color: #fff;
+    line-height: 50px;
+}
+#footer-end p{
+    margin: 0;
+}
+#footer-end a{
+    color: #eb4141;
+    text-decoration: none;
+}
+
+/* *******************************End of css for footer-end************************************** */

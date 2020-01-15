@@ -1,0 +1,596 @@
+
+/* 
+***********************************Start Css Styling**********************************************
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* *******************************Start of css for  header menu************************************** */
+
+#header {
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin-top: 25px;
+}
+.fixed {
+    position: fixed !important;
+    top: 0 !important;
+    /* background-color: rgba(235,65,65,.8); */
+    background-color: rgba(18, 18, 18, 0.8);
+    margin-top: 0px !important;
+}
+.fixed nav {
+    padding: 0;
+}
+#header .navbar-brand{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+
+#header ul li a.active{
+    /* background-color: #fff; */
+    color: #eb4141;
+    border-bottom: 2px solid #eb4141;
+}
+
+#header ul li{
+    padding: 7px 10px;
+}
+
+#header ul li a{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    text-decoration: none;
+    -webkit-transition:  all ease .3s;
+    -moz-transition:  all ease .3s;
+    -o-transition:  all ease .3s;
+    transition: all ease .3s;
+}
+
+#header ul li:last-child{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#header ul li:nth-last-child(2){
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#header ul li a:hover{
+    color: #eb4141;
+}
+#header .dropdown-menu{
+    border-radius: 10px;
+    background-color: #858585;
+    border: none;
+}
+.navbar-nav .dropdown-menu a{
+    background: none;
+}
+#header .dropdown-menu a{
+    color: #fff;
+}
+
+
+/* *******************************End of css for  header menu************************************** */
+
+
+/* *******************************start of css for  header-image************************************** */
+
+#header-image{
+    height: 400px;
+    width: 100%;
+    background: url('../images/about-us/about-us-head.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+#header-image .head-tittle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+#header-image h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Yellowtail', cursive;
+    font-size: 85px;
+    color: #fff;   
+}
+
+/* *******************************end of css for  header-image************************************** */
+
+
+/* *******************************start of css for  Feature************************************** */
+
+#feature img{
+    width: 100%;
+}
+
+#feature .content-area{
+    margin-top: 70%;
+}
+#feature .content-area h5{
+    /* font-size: 20px; */
+    color: #2b2b2b;
+    margin-top: 25px;
+}
+
+#feature .content-area h2{
+    font-size: 23px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+#feature .content-area h6{
+    font-size: 18px;
+    color: #2b2b2b;
+    margin-top: 25px;
+}
+
+#feature .content-area p{
+padding: 10px 15px;
+}
+
+
+
+/* *******************************end of css for  Feature************************************** */
+
+/* *******************************start of css for  dining************************************** */
+
+#dining img{
+    width: 100%;
+}
+
+#dining .content-area{
+    margin-top: 70%;
+}
+#dining .content-area h5{
+    /* font-size: 20px; */
+    color: #2b2b2b;
+    margin-top: 25px;
+}
+
+#dining .content-area h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+#dining .content-area h6{
+    font-size: 18px;
+    color: #2b2b2b;
+    margin-top: 25px;
+}
+
+#dining .content-area p{
+ padding: 10px 15px;
+}
+
+
+
+/* *******************************end of css for  Dining************************************** */
+
+
+/* *******************************start of css for  testimonail************************************** */
+
+#testimonail img{
+    width: 100%;
+    height: 600px;
+}
+#testimonail{
+    position: relative;
+}
+
+#testimonail .right{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#testimonail .carousel{
+    height: 500px;
+    width: 600px;
+    margin-top: 50px;
+    background-color: #858585;
+}
+#testimonail .carousel-item{
+    text-align: center;
+    color: #fff;
+    padding: 40px;
+}
+#testimonail .carousel-item h2{
+    font-size: 40px;
+}
+#testimonail .carousel-item i{
+    font-size: 30px;
+}
+#testimonail .carousel-item p{
+   padding: 20px;
+   font-size: 22px;
+   line-height: 30px;
+}
+#testimonail .carousel-item span{
+    display: block;
+    margin-top: 10px;
+}
+#testimonail .carousel-item img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+#testimonail a.carousel-control-prev{
+    height: 40px;
+    width: 40px;
+    background-color: #a36b26;
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    transform: translateY(-50%);
+}
+#testimonail a.carousel-control-next{
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    right: 560px;
+    transform: translateY(-50%);
+}
+
+
+
+/* *******************************end of css for  testimonail************************************** */
+
+/* *******************************start of css for  chef************************************** */
+
+#chef .chef-head h4{
+    font-size: 18px;
+}
+#chef .chef-head .line{
+    border-bottom: 2px solid #000;
+    width: 90px;
+    display: block;
+}
+#chef .chef-head h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.item
+{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background: #000;
+	box-shadow: 0 10px 20px rgba(0,0,0,.5);
+}
+.item .imgBx
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.item .imgBx img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: 0.5s;
+}
+.item:hover .imgBx img
+{
+	opacity: 0;
+}
+.item .content
+{
+	position: absolute;
+	bottom: 20px;
+	left: 15%;
+	width: 70%;
+	height: 60px;
+    background-image: linear-gradient( 112.2deg,  rgba(86,223,223,1) 4.7%, rgba(2,28,186,1) 110.1% );
+    color: #fff;
+	transition: 0.5s;
+	overflow: hidden;
+    padding: 15px;
+    transform: skew(-20deg);
+	box-sizing: border-box;
+}
+.item2 .content{
+    background-image: linear-gradient( 109.6deg,  rgba(255,37,174,1) 11.2%, rgba(250,237,56,1) 91.1% );
+}
+.item3 .content{
+    background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+}
+.item:hover .content
+{
+	width: 100%;
+	height: 100%;
+	bottom: 0;
+    left: 0;
+    transform: skew(0deg);
+}
+.item .content h3
+{
+	margin: 0;
+	padding: 0;
+    font-size: 27px;
+}
+.item .content p
+{
+    font-size: 16px;
+	margin: 10px ;
+	padding: 0;
+	opacity: 0;
+	line-height: 1.6em;
+	transition: 0.5s;
+	text-align: justify;
+}
+.item:hover .content p
+{
+	opacity: 1;
+	transition-delay: 0.3s;
+}
+/* *****************************  end of css for Chef**************************** */
+
+/* *****************************  Start of css for Service area**************************** */
+
+#service .service-head h4{
+    font-size: 18px;
+}
+#service .service-head h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+}
+#service .service-head .box{
+    border-bottom: 2px solid #000;
+    width: 200px;
+    display: block;
+}
+#service .service-bottom .card .box{
+    height: 100px;
+    width: 100px;
+    background-color: #862b2b;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+#service .service-bottom .card .box img{
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#service .service-bottom .card p{
+    font-size: 14px;
+}
+
+#service .service-bottom .card{
+    transition: .5s;
+}
+#service .service-bottom .card:hover{
+    box-shadow: -1px 9px 40px -12px rgba(0, 0, 0, .75);
+    background-image: linear-gradient( 68.2deg,  rgba(3,126,243,1) -0.3%, rgba(48,195,158,1) 100.2% );
+    color: #fff;
+    transform: translateY(-10px);
+}
+.card-img-top{
+    overflow: hidden;
+}
+.srv-1 .card-img-top:hover img{
+    transform: scale(1.4);
+}
+#service .service-bottom .card:hover .box{
+    transform: scale(1.2);
+    background-color: rgb(228, 89, 54);
+}
+
+
+/* *******************************end of css for  chef************************************** */
+
+#one{
+    position: relative;
+}
+#one .bg img{
+    width: 100%;
+    height: 600px;
+}
+#one .col-10{
+    padding: 0;
+}
+#one .carousel{
+    height: 500px;
+    width: 600px;
+    background-color: #858585;
+    margin-top: 50px;
+}
+#one .left{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#one .carousel-item{
+    padding: 10% 20% ;
+    text-align: center;
+}
+#one .carousel-item h2{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+#one .carousel-item p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+#one .carousel-item .i-con img{
+    margin-right: 25px;
+    margin-top: 10px;
+}
+#one a.carousel-control-prev{
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 560px;
+    transform: translateY(-50%);
+}
+#one a.carousel-control-next{
+    height: 40px;
+    width: 40px;
+    background-color: #a36b26;
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    transform: translateY(-50%);
+}
+
+
+
+/* *******************************Start of css for Service************************************** */
+
+
+
+
+/* *******************************end of css for fService************************************** */
+
+
+/* *******************************Start of css for footer-area************************************** */
+
+#footer-area{
+    background: #000;
+}
+
+#footer-area .footer-left,.footer-center-end{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#footer-area .footer-left img{
+    width: 100%;
+}
+
+#footer-area .footer-left .box{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    bottom: 22%;
+    padding: 5px;
+    background-color: #000;
+    opacity: .6;
+}
+
+#footer-area .footer-left .box h4{
+    font-size: 24px;
+    color: #fff;
+}
+
+#footer-area .footer-left .box span{
+    color: #a36b26;
+}
+/*  */
+#footer-area .footer-center{
+    color: #fff;
+}
+
+
+#footer-area .footer-center h3{
+  font-size: 30px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#footer-area .footer-center p{
+ font-size: 16px;
+ margin-bottom: 100px;
+}
+
+#footer-area .footer-center .social-icon ul li {
+    display: inline;
+}
+
+#footer-area .footer-center .social-icon ul li a i{
+   color: #fff;
+   background-color: #2f2f2f;
+   height: 35px;
+   width: 35px;
+   font-size: 16px;
+   line-height: 32px;
+}
+#footer-area .footer-center .social-icon ul li a i:hover{
+    color: #a36b26;
+    background-color: #fff;
+  
+}
+
+#footer-area .footer-right{
+    color: #fff;
+    margin-top: 70px;
+}
+
+#footer-area .footer-right p{
+    margin: 5px;
+}
+
+/* *******************************End of css for footer-area************************************** */
+
+
+/* *******************************Start of css for footer-end************************************** */
+
+#footer-end{
+    background-color: #8f8888;
+    height: 50px;
+    color: #fff;
+    line-height: 50px;
+}
+#footer-end p{
+    margin: 0;
+}
+#footer-end a{
+    color: #eb4141;
+    text-decoration: none;
+}
+
+/* *******************************End of css for footer-end************************************** */
+
